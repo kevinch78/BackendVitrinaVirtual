@@ -65,7 +65,9 @@ public class SecurityConfig {
                 "http://localhost:5173", // Vite dev server
                 "http://127.0.0.1:3000",
                 "http://127.0.0.1:5173",
-                "http://127.0.0.1:5500" // Tu origen actual
+                "http://127.0.0.1:5500",
+                "https://front-cloutfit.vercel.app", // Frontend en Vercel
+                "https://*.up.railway.app" // Dominio dinámico del backend en Railway
         ));
 
         // Métodos HTTP permitidos
